@@ -1,0 +1,51 @@
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.item-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.item-price {
+    font-size: 16px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.item-hash {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.item-tag {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 14px;
+    color: #555;
+}
