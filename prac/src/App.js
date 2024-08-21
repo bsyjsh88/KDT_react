@@ -118,8 +118,8 @@ function App() {
     { value: "data1", label: "첫번째화면" },
     { value: "data2", label: "두번째화면" },
     { value: "data3", label: "세번째화면" },
-  ];
-
+    ];
+    
   return (
     <>
       <Header options={options} setType={setType} data1={data1} data2={data2} data3={data3} />

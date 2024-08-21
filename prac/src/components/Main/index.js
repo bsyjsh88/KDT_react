@@ -9,6 +9,7 @@ const Main = ({ items }) => {
                     <h3 className="item-name">{item.name}</h3>
                     <p className="item-price">{item.price}원</p>
                     <div className="item-hash">
+                        {/* key 값은 Virtual DOM */}
                         {item.hash && item.hash.map((h, i) => <span className="item-tag" key={i}>#{h.tag} </span>)}
                     </div>
                 </div>
