@@ -1,0 +1,33 @@
+/* TodoInsert.css */
+
+.TodoInsert {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.TodoInsert input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.TodoInsert button {
+  margin-left: 10px;
+  background-color: #1c7ed6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoInsert button:hover {
+  background-color: #1971c2;
+}

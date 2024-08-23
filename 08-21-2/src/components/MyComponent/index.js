@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 const MyComponent = (props) => {
     const { number } = props;
     const [text, setText] =useState('');
